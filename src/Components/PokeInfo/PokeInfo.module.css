@@ -1,0 +1,164 @@
+  .card {
+    position: relative;
+    width: 430px;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+  .card img {
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+  }
+  .hp {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: #E54222;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+  }
+  .name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .skills {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+  }
+
+.skills:not(:last-child){
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.stats {
+position: relative;
+margin: 0;
+}
+
+.bar {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: inline-block;
+    width: 275px;
+}
+
+:root {
+    --normal: #A8A878;
+    --fire: #F08030;	
+    --water: #6890F0;
+    --electric: #F8D030;
+    --grass: #78C850;
+    --ice: #98D8D8;
+    --fighting: #C03028;
+    --poison: #A040A0;
+    --ground: #E0C068;
+    --flying: #A890F0;
+    --psychic: #F85888;
+    --bug: #A8B820;
+    --rock: #B8A038;
+    --ghost: #705898;
+    --dragon: #7038F8;
+    --dark: #705848;
+    --steel: #B8B8D0;
+    --fairy: #EE99AC;
+}
+
+.normal	{
+    background: radial-gradient(circle at 50% 0%, var(--normal) 36%, #ffffff 36%);
+}
+.fire {
+    background: radial-gradient(circle at 50% 0%,  var(--fire) 36%, #ffffff 36%);
+
+}	
+.water {
+    background: radial-gradient(circle at 50% 0%,  var(--water) 36%, #ffffff 36%);
+
+}	
+.electric {
+    background: radial-gradient(circle at 50% 0%,  var(--electric) 36%, #ffffff 36%);
+
+}	
+.grass {
+    background: radial-gradient(circle at 50% 0%,  var(--grass) 36%, #ffffff 36%);
+
+}	
+.ice {
+    background: radial-gradient(circle at 50% 0%,  var(--ice) 36%, #ffffff 36%);
+
+}	
+.fighting {
+    background: radial-gradient(circle at 50% 0%,  var(--fighting) 36%, #ffffff 36%);
+
+}	
+.poison {
+    background: radial-gradient(circle at 50% 0%,  var(--poison) 36%, #ffffff 36%);
+
+}	
+.ground {
+    background: radial-gradient(circle at 50% 0%,  var(--ground) 36%, #ffffff 36%);
+
+}	
+.flying {
+    background: radial-gradient(circle at 50% 0%,  var(--flying) 36%, #ffffff 36%);
+
+}	
+.psychic {
+    background: radial-gradient(circle at 50% 0%,  var(--psychic) 36%, #ffffff 36%);
+
+}	
+.bug {
+    background: radial-gradient(circle at 50% 0%,  var(--bug) 36%, #ffffff 36%);
+
+}	
+.rock {
+    background: radial-gradient(circle at 50% 0%,  var(--rock) 36%, #ffffff 36%);
+
+}	
+.ghost {
+    background: radial-gradient(circle at 50% 0%,  var(--ghost) 36%, #ffffff 36%);
+
+}	
+.dragon {
+    background: radial-gradient(circle at 50% 0%,  var(--dragon) 36%, #ffffff 36%);
+
+}	
+.dark {
+    background: radial-gradient(circle at 50% 0%,  var(--dark) 36%, #ffffff 36%);
+
+}	
+.steel {
+    background: radial-gradient(circle at 50% 0%,   var(--steel) 36%, #ffffff 36%);
+
+}	
+.fairy {
+    background: radial-gradient(circle at 50% 0%,  var(--fairy) 36%, #ffffff 36%);
+
+}
