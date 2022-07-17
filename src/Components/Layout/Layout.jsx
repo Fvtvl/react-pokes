@@ -9,7 +9,8 @@ const Layout = ({ children }) => {
     return (
         <div className={styles.wrapper}>
         <Header className={styles.header}/>
-            <Sidebar className={styles.sidebar}/>
+            <Sidebar className={styles.sidebar}>
+            </Sidebar>
             <body className={styles.body}>
                 {children}
             </body>

@@ -3,11 +3,11 @@
     grid-template-columns: 1fr auto auto;
     gap: 10px 40px;
 
-    color: var(--white);
-    font-size: 16px;
+    color: white;
+    font-size: 20px;
     line-height: 20px;
 
-    background-color: var(--primary);
+    background-color: #0075BE;
     padding: 25px 30px;
 }
 

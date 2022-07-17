@@ -1,5 +1,6 @@
 .button {
     margin-right: 20px;
+    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 0.9em 3em;
@@ -16,9 +17,6 @@
     touch-action: manipulation;
     }
     
-.button:first-child {
-    margin-left: 400px;
-}
 
 .button:before {
     content: "";

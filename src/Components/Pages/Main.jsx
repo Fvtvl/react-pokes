@@ -52,7 +52,6 @@ function Main () {
                 setUrl(nextUrl)
             }}>Next</Button>
         </div>
-
         <a onClick={()=> setInfoActive(true)}>
         <Card pokemon ={pokeData} loading={loading} infoPokemon={poke=>setPokeDex(poke)}></Card>
         </a>

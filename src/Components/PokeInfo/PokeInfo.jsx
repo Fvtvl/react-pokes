@@ -4,6 +4,7 @@ import cn from "classnames";
 import { ProgressBar } from 'react-bootstrap';
 import bar from 'bootstrap/dist/css/bootstrap.min.css';
 
+
 export default function PokeInfo ({ data }) {
     return (
         <>

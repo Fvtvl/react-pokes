@@ -1,9 +1,15 @@
 import React from "react";
-import Main from "./Components/Main/Main"
+import Main from "./Components/Pages/Main";
+import Battle from "./Components/Pages/Battle";
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <Main/>
+      <Routes>
+        <Route path="/" element={<Main/>}/>
+        <Route path="battle" element={<Battle/>}/>
+      </Routes>
   );
 }
 

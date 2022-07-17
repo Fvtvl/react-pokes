@@ -1,11 +1,18 @@
 import styles from "./Header.module.css"
 import cn from 'classnames';
+import { format } from "date-fns"
 
-export const Header = ({  ...props }) => {
+export const Header = ({className,  ...props }) => {
     return (
-        <div {...props}>
-            Header
-        </div>
+        <body className={cn(className, styles.footer, {
+
+        })} {...props}>
+            <div>
+            PokeDex © {format(new Date(), "yyyy")}
+            </div>
+            <a href="#" target="_blanc">Fvtv</a>
+            <a href="#" target="_blanc">GitHub</a>
+        </body>
  
     );
 };
