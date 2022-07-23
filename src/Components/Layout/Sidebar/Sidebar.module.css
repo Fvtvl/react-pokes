@@ -1,0 +1,11 @@
+.container {
+    justify-self: center;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0C3348;
+    
+}

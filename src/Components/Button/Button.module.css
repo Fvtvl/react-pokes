@@ -1,8 +1,4 @@
 .button {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
     padding: 0.9em 3em;
     border: none;
     outline: none;
@@ -17,6 +13,19 @@
     touch-action: manipulation;
     }
     
+.mainBtn {
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.battleBtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 28%;
+    margin-left: 8%;
+}
 
 .button:before {
     content: "";

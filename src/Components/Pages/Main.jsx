@@ -4,7 +4,7 @@ import Card from "../Card/Card";
 import { withLoyout } from "../Layout/Layout";
 import { Button } from "../Button/Button";
 import Modale from "../Modale/Modale";
-
+import style from "../Button/Button.module.css";
 
 function Main () {
     const [pokeData, setPokeData] = useState([]);
@@ -42,12 +42,12 @@ function Main () {
     return (
         <>
         <div>
-            {prevUrl && <Button onClick={()=> {
+            {prevUrl && <Button className={style.mainBtn} onClick={()=> {
                 setPokeData([])
                 setUrl(prevUrl)
             }}>Previous</Button>}
 
-            <Button onClick={()=> {
+            <Button className={style.mainBtn} onClick={()=> {
                 setPokeData([])
                 setUrl(nextUrl)
             }}>Next</Button>

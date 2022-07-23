@@ -1,13 +1,12 @@
 .wrapper {
     display: grid;
-    grid-template-columns: auto 230px minmax(320px, 1200px) auto;
+    grid-template-columns: 180px minmax(320px, 1600px);
     grid-template-rows: auto 1fr  auto;
     min-height: 100vh;
-    gap: 0 30px;
     grid-template-areas: 
-    "header header header header"
-    ". sidebar body ."
-    "footer footer footer footer";
+    "header header "
+    "sidebar body"
+    "footer footer ";
 }
 
 .header {
@@ -17,10 +16,12 @@
 
 .sidebar {
     grid-area: sidebar;
+    background-color: #855AC9;
 }
 
 .body {
     grid-area: body;
+    background-color: rgb(145, 145, 145,0.4);
 }
 
 .footer {

@@ -1,4 +1,4 @@
-import styles from "./Sidebar.module.css"
+import style from "./Sidebar.module.css"
 import cn from 'classnames';
 import { NavLink } from 'react-router-dom';
 
@@ -6,8 +6,10 @@ import { NavLink } from 'react-router-dom';
 export const Sidebar = ({ ...props }) => {
     return (
           <>
-           <NavLink to="/" >Home</NavLink>
-           <NavLink to="/battle" >Battle</NavLink>
+          <nav className={style.container}>
+           <NavLink className={style.nav} to="/" >Home</NavLink><br></br>
+           <NavLink className={style.nav} to="/battle" >Battle</NavLink>
+           </nav>
           </>
     )
 };

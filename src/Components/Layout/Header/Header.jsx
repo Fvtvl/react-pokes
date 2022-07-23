@@ -4,7 +4,7 @@ import { format } from "date-fns"
 
 export const Header = ({className,  ...props }) => {
     return (
-        <body className={cn(className, styles.footer, {
+        <body className={cn(className, styles.header, {
 
         })} {...props}>
             <div>
