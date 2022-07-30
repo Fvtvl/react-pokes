@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
-import { withLoyout } from "../Layout/Layout";
 import { Button } from "../Button/Button";
 import Modale from "../Modale/Modale";
 import style from "../Button/Button.module.css";
@@ -62,4 +61,4 @@ function Main () {
     )
 };
 
-export default withLoyout(Main);
+export default Main;

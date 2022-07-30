@@ -1,27 +1,30 @@
-.header {
+.footer {
     display: grid;
     grid-template-columns: 1fr auto auto;
     gap: 10px 40px;
 
-    color: white;
+    color: #FF4136;
     font-size: 20px;
     line-height: 20px;
-
-    background-color: #0075BE;
+    font-weight: 700;
+    background-color: inherit;
     padding: 25px 30px;
+    position: relative;
+    bottom: 0;
 }
 
-.header a {
-    color: #FFCC00;
+.footer a {
+    color: #111111;
     text-decoration: none;
 }
 
-.header a:hover {
-    color: #D5A100;
+.footer a:hover {
+    color: whitesmoke;
+    transition-duration: 250ms;
 }
 
 @media (max-width: 765px){
-    .header {
+    .footer {
         grid-template-columns: 1fr;
     }
 }

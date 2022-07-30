@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { withLoyout } from "../Layout/Layout";
 import { Button } from "../Button/Button";
 import style from "../Pages/Battle.module.css"
 import PokeInfo from "../PokeInfo/PokeInfo";
@@ -91,4 +90,4 @@ function Battle () {
     )
 };
 
-export default withLoyout(Battle);
+export default Battle;

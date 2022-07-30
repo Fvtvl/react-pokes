@@ -2,6 +2,8 @@
     display: flex;
     margin-top: 20px;
     margin-left: 200px;
+    height: 63vh;
+    text-transform: capitalize;
   }
   
 .button {

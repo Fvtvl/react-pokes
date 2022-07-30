@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+
+    color: white;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+
+    background-color: inherit;
+    padding: 25px 30px;
+}
+
+.link {
+    margin-left: 350px;
+}
+
+.header a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: whitesmoke;
+    transition-duration: 250ms;
+}
