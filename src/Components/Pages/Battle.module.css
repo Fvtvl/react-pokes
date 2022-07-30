@@ -10,16 +10,16 @@
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  margin-right: 21%;
-  margin-left: 21%;
+  margin-right: 30%;
+  margin-left: 20%;
 }
 
 .input {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  margin-right: 21%;
-  margin-left: 21%;
+  margin-right: 30%;
+  margin-left: 20%;
 }
 
 .fight {
